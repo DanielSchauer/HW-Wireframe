@@ -12,8 +12,8 @@ header {
 footer {
     background: #ebebeb;
     padding: 40px;
-    margin: 285px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
     margin-left: 10px;
     margin-right: 10px;
     display: block;
@@ -36,27 +36,40 @@ nav {
 
 }
 
+/* 1st is top, 2nd is right, 3rd is down, 4th is left */
 
-
-.clearfix::after {
-
+    .clearfix {
+    /*
     content: "";
     display: block;
     clear: both;
-
+    */
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 0px
 }
 
 
 aside {
     background: #ebebeb;
-    float: right;
+    
     margin: 0px;
     margin-bottom: 10px;
-    margin-left: 10px;
+    margin-left: 600px;
     margin-right: 10px;
-    padding: 115px 152px;
+    padding-top: 10px;
+    padding-bottom: 230px;
+    padding-left: 100px ;
+    padding-right: 90px ;
     text-align: center;
-    height: 20px
+    height: 0px;
+    width: 150px;
+    float: left
+    
+    
     
 }
 
@@ -73,7 +86,8 @@ article {
     color: #ebebeb;
     background: #777;
     padding: 60px 0px;
-    text-align: center
+    text-align: center;
+    width: 250px
     
 
 }
@@ -89,16 +103,16 @@ body {
 
 
 #article {
-    color: #ebebeb;
+    color: #777;
     background: #777;
-    float: left;
     text-align: center;
     margin: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
     padding: 0px 0px;
-    width: 120px
+    width: 0px;
+    height: 0px;
     
 
 
@@ -107,16 +121,15 @@ body {
 }
 
 #h1,h2,h3 {
-    color: #ebebeb;
-    background: #777;
-    float: left;
+    color: #777;
     text-align: center;
     margin: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    padding: 20px 50px;
-    width: 100px;
+    padding: 0px 0px;
+    width: 0px;
+    height: 0px
     
     
 
@@ -131,9 +144,15 @@ margin: 0px;
 margin-bottom: 10px;
 margin-left: 10px;
 margin-right: 10px;
-padding: 85px 215px;
-float: left;
-text-align: center
+padding: 0px ;
+padding-left: 225px ;
+padding-right: 350px ;
+padding-top: 50px ;
+padding-bottom: 190px ;
+text-align: center;
+width: 1px;
+height: 0px;
+
 
 
 
@@ -147,9 +166,11 @@ text-align: center
 #p {
 
     color: #777;
-    background: #ebebeb;
-    padding: 10px 30px;
-    text-align: center
+    padding: 0px 0px;
+    text-align: center;
+    width: 0px;
+    height: 0px;
+
     
 
 
